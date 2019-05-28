@@ -4,7 +4,7 @@
 <div class="container">
   <div class="row">
       
-      <div class="col-lg-8" style="background-color: #F5F5F5">
+      <div class="col-lg-8" style="background-color: #F5F5F5;margin-top: 3%;">
             <div class="row">              
                   <div class="form-group col-md-6" style="padding: 5%">
                     <label for="firstName">First name</label>

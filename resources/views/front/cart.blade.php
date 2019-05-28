@@ -1,7 +1,7 @@
 @extends('front.inc.master')
 @section('content')
 	<!-- Title Page -->
-	<section class="bg-title-page p-t-40 p-b-50 flex-col-c-m" style="background-image: url(images/heading-pages-01.jpg);">
+	<section class="bg-title-page p-t-40 p-b-50 flex-col-c-m" style="background-image: url({{ asset('front/images/heading-pages-01.jpg') }});">
 		<h2 class="l-text2 t-center">
 			Cart
 		</h2>
@@ -25,7 +25,7 @@
 						<tr class="table-row">
 							<td class="column-1">
 								<div class="cart-img-product b-rad-4 o-f-hidden">
-									<img src="images/item-10.jpg" alt="IMG-PRODUCT">
+									<img src="{{ asset('front/images/item-10.jpg') }}" alt="IMG-PRODUCT">
 								</div>
 							</td>
 							<td class="column-2">Men Tshirt</td>

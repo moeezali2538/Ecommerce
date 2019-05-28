@@ -155,7 +155,7 @@
             </div>
 
             <!-- Logo2 -->
-            <a href="#" class="logo2">
+            <a href="{{ url('/') }}" class="logo2">
                 <img src="{{asset('front/images/icons/logo.png')}}" alt="IMG-LOGO">
             </a>
 
